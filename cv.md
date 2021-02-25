@@ -24,7 +24,7 @@ A lot of text about me.
 
 ## **Code Examples**
     
-* `CSS` example:
+ `CSS` example:
 
 ```css
 form{
@@ -50,7 +50,7 @@ form::after{
 }
 ```
 
-* `React` example:
+ `React` example:
 ```javascript
 import React from 'react';
 import SliderBox from './SliderBox';
