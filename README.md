@@ -1,1 +1,1 @@
-https://1337ninja1337.github.io/rsschool-cv/cv
+https://1337ninja1337.github.io/rsschool-cv/
