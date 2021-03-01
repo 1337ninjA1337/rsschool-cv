@@ -25,6 +25,10 @@
 }
 .first-line{ margin-left: -1em; }
 
+#wrapper{
+    display: flex;
+    justify-content: center;
+}
 #avatar{
     width: 20%;
     height: 20em;
@@ -42,15 +46,14 @@
 #social-media img{ width: 5em; }
 
 
-body{
-    display: flex;
-    justify-content: center;
-}
+
 
 main{
     margin-top: 3em;
     margin-left: 5em;
 }
+
+article{  margin-top: 2em;}
 
 h2{    
     margin-top: 2em;
