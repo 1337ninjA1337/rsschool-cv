@@ -6,9 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: "Lato-Regular";
-    font-size: 105%;
-    
-    
+    font-size: 105%;   
 }
 
 .one-line-code-example{
@@ -25,16 +23,17 @@
 }
 .first-line{ margin-left: -1em; }
 
-#avatar{
-    width: 20%;
-    height: 20em;
-    margin-top: 10em;
-    border-radius: 50em;
-    overflow: hidden;
+#wrapper{
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) minmax(220px, 4fr);
 }
+
 #avatar img{
-    margin-top: -10em;
-    width: 20em;
+    margin-top: 3em;
+    margin-left: 2em;
+    width: 100%;
+    border-radius: 100%;
+  
 }
 
 #social-media{  padding-top: 1em; }
@@ -42,15 +41,14 @@
 #social-media img{ width: 5em; }
 
 
-body{
-    display: flex;
-    justify-content: center;
-}
+
 
 main{
     margin-top: 3em;
     margin-left: 5em;
 }
+
+article{  margin-top: 2em;}
 
 h2{    
     margin-top: 2em;
