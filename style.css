@@ -48,14 +48,13 @@ main{
     margin-left: 5em;
 }
 
-article{  margin-top: 2em;}
 
 h2{    
     margin-top: 2em;
+    margin-bottom: 2em;
     border-bottom: 1px solid #d4d4d4;
 }
 
-section{  margin-top: 2em; }
 
 q{
     margin-left: 1em;
