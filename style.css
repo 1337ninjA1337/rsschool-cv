@@ -6,9 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: "Lato-Regular";
-    font-size: 105%;
-    
-    
+    font-size: 105%;   
 }
 
 .one-line-code-example{
@@ -26,19 +24,16 @@
 .first-line{ margin-left: -1em; }
 
 #wrapper{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) minmax(220px, 4fr);
 }
-#avatar{
-    width: 20%;
-    height: 20em;
-    margin-top: 10em;
-    border-radius: 50em;
-    overflow: hidden;
-}
+
 #avatar img{
-    margin-top: -10em;
-    width: 20em;
+    margin-top: 3em;
+    margin-left: 2em;
+    width: 100%;
+    border-radius: 100%;
+  
 }
 
 #social-media{  padding-top: 1em; }
